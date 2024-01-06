@@ -1,0 +1,140 @@
+@media (max-width: 1000px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 960px) {
+  .contacts__info-map {
+    width: 70%;
+  }
+}
+
+@media (max-width: 810px) {
+  .details__item-text {
+    text-align: left;
+  }
+  .details__item {
+    gap: 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 3px 0;
+  }
+  .intro__bottom {
+    padding-top: 11%;
+  }
+  .header__wrapper {
+    flex-direction: column;
+  }
+  .header__logo {
+    margin-bottom: 20px;
+  }
+  .intro__bottom-title {
+    font-size: 50px;
+  }
+  .details__item {
+    flex-direction: column;
+  }
+  .details__img--position {
+    order: 2; 
+  }
+  .details__img--position-2 {
+    order: 1; 
+  }
+  .details__item-text {
+  margin-bottom: 10px;
+  }
+  .details__item {
+  margin-bottom: 15px;
+  }
+  .intro {
+  margin-bottom: 25px;
+  } 
+}
+
+@media (max-width: 700px) {
+  .footer__link {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+  }
+  .footer__link-item {
+    padding: 5px 0;
+  }
+   .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  } 
+}
+@media (max-width: 580px) {
+  .header__nav-list--link {
+    padding: 10px 0;
+    display: block;
+  }
+  .header__burger {
+    display: block;
+    transition: all .3s;
+  }
+  .header__burger span {
+    transition: all .3s;
+  }
+  .header__nav-list {
+    position: fixed;
+    top: 0;
+    left: 300%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    padding: 30%;
+    flex-direction: column;
+    align-items: center;
+    transition: all .3s;
+  }
+  .header__nav-list--link {
+    border-bottom: 2px solid #eee;
+    padding: 20px 10px;
+  }
+  .header__nav--active .header__burger span:nth-child(2) {
+    display: none;
+  }
+  .header__nav--active .header__burger span:nth-child(odd) {
+    top: 50%;
+  }
+  .header__nav--active .header__burger span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  .header__nav--active .header__burger span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  .header__nav--active .header__nav-list {
+    left: 0;
+  }
+}
+@media (max-width: 470px) {
+  .intro__bottom-title {
+    font-size: 30px;
+    padding-top: 25%;
+  }
+}
+
+@media (max-width: 370px) {
+  .intro__bottom-title {
+    padding-top: 35%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
